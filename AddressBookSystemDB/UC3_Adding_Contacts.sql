@@ -15,4 +15,10 @@ PhoneNumber bigint not null,
 Email varchar(100) not null
 );
 
+-----UC3 Adding contacts in to table-------
+insert into AddressBook
+values('Raghav','Ban','Yavatmal','Yavatmal','Maharashtra',686574,11111111,'unthinkable@gmail.com'),
+('Ajay','Rathod','Ner','Yavatmal','Maharashtra',456321,7898789784,'AjR@gmail.co'),
+('Preeti','Sharma','Kanpur','kanpur','UttarPradesh',456321,7412589632,'psk@gmail.com');
+
 select * from AddressBook;
