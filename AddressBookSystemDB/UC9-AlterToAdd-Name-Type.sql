@@ -44,4 +44,18 @@ select * from AddressBook
 where city = 'Noida'
 order by FirstName,LastName;
 
+------------ UC9 Ability to identify with name & type-------------
+
+alter table AddressBook add AddressBookName varchar(50) not null default ' ', AddressBookType varchar(50) not null default ' ';
+
+-- Update in table for UC 9 ------
+update AddressBook
+set AddressBookName = 'Mybook', AddressBookType ='Family'
+where firstName= 'Prasad';
+
+update AddressBook
+set AddressBookName = 'Mybook2', AddressBookType ='Friend'
+where firstName= 'Ajay';
+
+
 select * from AddressBook;
