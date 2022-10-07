@@ -21,4 +21,9 @@ values('Raghav','Ban','Yavatmal','Yavatmal','Maharashtra',686574,11111111,'unthi
 ('Ajay','Rathod','Ner','Yavatmal','Maharashtra',456321,7898789784,'AjR@gmail.co'),
 ('Preeti','Sharma','Kanpur','kanpur','UttarPradesh',456321,7412589632,'psk@gmail.com');
 
+
+----------UC 4 Update Contact--------------
+update AddressBook
+set city = 'Nagpur' where firstName='Raghav' and lastName='Ban';
+
 select * from AddressBook;
