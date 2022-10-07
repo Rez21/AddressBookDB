@@ -26,4 +26,8 @@ values('Raghav','Ban','Yavatmal','Yavatmal','Maharashtra',686574,11111111,'unthi
 update AddressBook
 set city = 'Nagpur' where firstName='Raghav' and lastName='Ban';
 
+----------UC5 5 Delete Contact ------------
+delete from AddressBook
+where firstName= 'Preeti' and lastName='Sharma';
+
 select * from AddressBook;
