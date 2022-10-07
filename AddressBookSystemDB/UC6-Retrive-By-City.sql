@@ -30,4 +30,8 @@ set city = 'Nagpur' where firstName='Raghav' and lastName='Ban';
 delete from AddressBook
 where firstName= 'Preeti' and lastName='Sharma';
 
+---------UC6 retrive contact belong to city -----------
+select * from AddressBook
+where city='Yavatmal';
+
 select * from AddressBook;
