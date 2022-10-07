@@ -34,4 +34,9 @@ where firstName= 'Preeti' and lastName='Sharma';
 select * from AddressBook
 where city='Yavatmal';
 
+
+--------UC7 get size of address book -----------
+select count(*) as NoOfContacts from AddressBook
+where city='Yavatmal' and state='Maharashtra';
+
 select * from AddressBook;
