@@ -62,4 +62,9 @@ where firstName= 'Ajay';
 select AddressbookType,count(*)from AddressBook
 group by AddressBooktype;
 
+----------UC11 add to type ----------
+insert into AddressBook
+values ('shahrukh','khan','bandra','mumbai','Maharashtra',68657456,113456111,'srk@gmail.com','Mybook','Friend'),
+ ('Ashwin','Singh','vashi','naviMumbai','Maharashtra',698734,11109871,'asing@gmail.com','Mybook','Family');
+
 select * from AddressBook;
