@@ -58,4 +58,8 @@ set AddressBookName = 'Mybook2', AddressBookType ='Friend'
 where firstName= 'Ajay';
 
 
+------- UC 10 count by type -------------
+select AddressbookType,count(*)from AddressBook
+group by AddressBooktype;
+
 select * from AddressBook;
